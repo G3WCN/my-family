@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>About~周</title>
+		<style>
+			body,div{
+				margin: 0;
+				padding: 0;
+			}
+			.bj {
+				width: 100%;
+				margin: 0 auto;
+			}
+
+			.header {
+				width: 50%;
+				height: 200px;
+				background-image: url(img/pic2.jpg);
+				position: relative;
+				margin-top: 200px;
+				margin-left: 750px;
+				transform: translate(-50%, -50%);
+			}
+
+			.pstyle {
+				display: inline;
+				font-size: 1vm;
+				font-size: 30px;
+				color: #FFFFFF;
+				position: absolute;
+				top: -10px;
+				left: 60px;
+			}
+
+			.pstyle1 {
+				display: inline;
+				font-size: 25px;
+				color: #FFFFFF;
+				position: absolute;
+				top: 20px;
+				left: 180px;
+			}
+
+			.pstyle2 {
+				display: inline;
+				font-size: 25px;
+				color: #FFFFFF;
+				position: absolute;
+				right: 100px;
+
+			}
+
+			.pstyle3 {
+				font-size: 25px;
+				color: #7B68EE;
+				position: absolute;
+				left: 150px;
+			}
+
+			.pstyle4 {
+				font-size: 25px;
+				color: #7B68EE;
+				position: absolute;
+				right: 150px;
+			}
+
+			.pstyle5 {
+				font-size: 30px;
+				color: #7B68EE;
+				position: absolute;
+				left: 50%;
+				top: 390px;
+			}
+
+			.pstyle6 {
+				font-size: 30px;
+				color: #7B68EE;
+				position: absolute;
+				left: 130px;
+				top: 320px;
+			}
+			.pstyle7 {
+				font-size: 30px;
+				font-style: italic;
+				text-decoration: none;
+				color: 	#000000;
+				position: absolute;
+				left: 450px;
+				top: 250px;
+			}
+			.pstyle7:hover {
+				opacity: 0.6;
+				color: red;
+			}
+			.dimg {
+				width: 60px;
+				height: 60px;
+				background-image: url(img/pic1.jpg);
+				position: absolute;
+				border-radius: 100%;
+				top: 10px;
+				right: 30px;
+			}
+
+			.border {
+				width: 700px;
+				height: 1px;
+				background: #FFFFFF;
+				position: absolute;
+				top: 40%;
+				left: 50%;
+				transform: translate(-50%, 0%);
+			}
+
+			.ustyle1 {
+				font-style: oblique;
+				opacity: 0.8;
+				color: #FFFFFF;
+				font-size: 15px;
+				position: absolute;
+				top: 75px;
+				left: 30px;
+			}
+
+			.ustyle2 {
+				font-style: oblique;
+				opacity: 0.8;
+				color: #FFFFFF;
+				font-size: 15px;
+				position: absolute;
+				top: 75px;
+				right: 50px;
+			}
+
+			.ustyle3 {
+				font-style: oblique;
+				font-size: 15px;
+				position: absolute;
+				top: 50px;
+				left: 30px;
+			}
+
+			.ustyle4 {
+				font-style: oblique;
+				font-size: 15px;
+				position: absolute;
+				top: 50px;
+				right: 100px;
+			}
+
+			.ustyle5 {
+				opacity: 0.7;
+				color: #FFFF00;
+				font-style: oblique;
+				font-size: 15px;
+				position: absolute;
+				top: 450px;
+				left: 300px;
+			}
+
+			.buttom {
+				width: 50%;
+				height: 700px;
+				background-image: url(img/pic3.jpg);				
+				position: relative;
+				margin-top: 250px;
+				margin-left: 750px;
+				transform: translate(-50%, -50%);
+
+			}
+
+			.father {
+				width: 150px;
+				height: 150px;
+				position: absolute;
+				left: 100px;
+				top: 450px;
+				transform-style: preserve-3d;
+				animation: xuan 3.5s linear infinite;
+			}
+
+			.father div {
+				width: 150px;
+				height: 150px;
+				position: absolute;
+				opacity: 0.6;
+			}
+
+			@keyframes xuan {
+				from {
+					transform: rotateX(0) rotate(0);
+				}
+
+				to {
+					transform: rotateX(360deg) rotate(360deg);
+				}
+			}
+
+			.son_1 {
+				transform: translateZ(75px);
+				background-image: url(img/jhl.jpg);
+			}
+
+			.son_2 {
+				transform: translateZ(-75px);
+				background-image: url(img/wcx.jpg);
+			}
+
+			.son_3 {
+				transform: translateX(-75px) rotateY(90deg);
+				background-image: url(img/zyl.jpg);
+			}
+
+			.son_4 {
+				transform: translateX(75px) rotateY(90deg);
+				background-image: url(img/wqy.jpg);
+			}
+
+			.son_5 {
+				transform: translateY(-75px) rotateX(90deg);
+				background-image: url(img/syp.jpg);
+			}
+
+			.son_6 {
+				transform: translateY(75px) rotateX(90deg);
+				background-image: url(img/cpf.jpg);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bj">
+			<div class="header">
+				<p class="pstyle">周永乐</p>
+				<p class="pstyle1">Knight</p>
+				<p class="pstyle2">在校大学生</p>
+				<div class="dimg"></div>
+				<div class="border"></div>
+				<ul class="ustyle1">
+					<li>男/ 2001.5 河南</li>
+					<li>专科/2022毕业</li>
+					<li>安徽文达信息工程学院 计算机应用技术</li>
+				</ul>
+				<ul class="ustyle2">
+					<li>Email:mr.ziqian@qq.com</li>
+					<li>Tel:13275775907</li>
+				</ul>
+			</div>
+			<div class="buttom">
+				<p class="pstyle3">项目经历</p>
+				<ul class="ustyle3">
+					<li>项目名称：图书馆管理系统的设计与实现</li>
+					<li>系统平台：window 11</li>
+					<li>开发环境：eclipse软件+SQL server 2008</li>
+					<li>项目内容：图书管理系统能实现基本信息维护、图书借阅、<br>归还及查询等操作通常是图书管理系统的基本功能。</li>
+					<li>个人证书：计算机C语言二级证书</li>
+				</ul>
+				<p class="pstyle6">团队成员</p>
+				<div class="father">
+					<div class="son_1"></div>
+					<div class="son_2"></div>
+					<div class="son_3"></div>
+					<div class="son_4"></div>
+					<div class="son_5"></div>
+					<div class="son_6"></div>
+				</div>
+				<a class="pstyle7" href="/">We are Family</a>
+				<p class="pstyle4">主修课程</p>
+				<ul class="ustyle4">
+					<li>高等数学 </li>
+					<li>C语言程序设计</li>
+					<li>SQL Server数据库应用</li>
+					<li>Java程序设计</li>
+					<li>web前端设计</li>
+					<li>Python程序设计</li>
+					<li>Android移动项目开发</li>
+				</ul>
+				<p class="pstyle5">个人总结</p>
+				<ul class="ustyle5">
+					<li>掌握C语言，Python语言具有较好的掌握，<br>对Web前端设计有一定的了解。</li>
+					<li>对计算机相关知识有较好掌握，有极强的快速学习能力，<br>能快速学习编程所需技能。</li>
+					<li>能适应高强度工作，有耐力有毅力，有较强的危机处理意识，<br>团队意识强，能快速融入新环境。</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
