@@ -16,51 +16,6 @@ body {
 }
 }
 
-/*@font-face {
-	font-family:'fontcn';font-display:swap;src:url(../fonts/font-cn-subfont.eot);
-src:url(../fonts/font-cn-subfont.eot?#iefix) format('embedded-opentype'),
-url(../fonts/font-cn-subfont.woff2) format('woff2'),
-url(../fonts/font-cn-subfont.woff) format('woff'),
-url(../fonts/font-cn-subfont.ttf) format('truetype'),
-url(../fonts/font-cn-subfont.svg#after) format('svg');
-}*/
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url(../fonts/memnYaGs126MiZpBA-UFUKWyV9hrIqY.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 600;
-  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url(../fonts/memnYaGs126MiZpBA-UFUKXGUdhrIqY.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/mem5YaGs126MiZpBA-UN_r8OUuhs.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(../fonts/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Josefin Sans Light Italic'), local('JosefinSans-LightItalic'), url(../fonts/Qw3HZQNVED7rKGKxtqIqX5EUCETRfm0jqps.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(../fonts/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
-}
 
 h1,
 h2,
